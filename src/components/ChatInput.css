@@ -76,5 +76,10 @@
   .clear-btn {
     flex: 1;
     margin-top: 10px;
+    margin-left: 0;
+  }
+  .send-button{
+    margin-left: 0;
+    margin-right: 5px;
   }
 }
