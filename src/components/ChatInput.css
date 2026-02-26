@@ -62,3 +62,19 @@
 .clear-btn:active {
   transform: scale(0.96);
 }
+@media (max-width: 480px) {
+  .chat-input-container {
+    flex-wrap: wrap;
+  }
+
+  .chat-input {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .send-button,
+  .clear-btn {
+    flex: 1;
+    margin-top: 10px;
+  }
+}
