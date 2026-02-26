@@ -25,7 +25,7 @@ function App() {
     })
       // Update unsuccessfulResponse to include all known commands
  
-  Chatbot.unsuccessfulResponse = `Sorry, I didn't quite understand that. Currently, I only know how to flip a coin, roll a dice  i can toggle themes and i can give a unique id  or get today's date. Let me know how I can help! `;
+  Chatbot.unsuccessfulResponse = `Sorry, I didn't quite understand that. Currently, I only know how to flip a coin, roll a dice  i can switch between light mode and dark mode and i can give a unique id  or get today's date. Let me know how I can help! `;
   }, [])
 
   useEffect(() => {
